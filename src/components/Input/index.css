@@ -1,38 +1,37 @@
 .input {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
+}
 
-  }
-  
-  .input__label {
-    margin-bottom: 0.5rem;
-    width: 100%;
-    font-size: 1rem;
-    font-weight: 600;
-    text-align: "left";
-    color: #333333;
-  }
-  
-  .input__field {
-    width: 100%;
-    padding: 0.5rem;
-    font-size: 1rem;
-    color: #333333;
-    background-color: #fff;
-    border: 0.05rem solid #ccc;
-  }
-  
-  .input__field:focus {
-    outline: none;
-    border-color: #007bff;
-    box-shadow: 0 0 0 0.01rem rgba(0, 123, 255, 0.25);
-  }
-  
-  .input__field--error {
-    border-color: #dc3545;
-  }
-  
-  .input__error-message {
-    margin-top: 0.1rem;
-    font-size: 0.6rem;
-    color: #dc3545;
-  }
+.input__label {
+  margin-bottom: 0.5rem;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: "left";
+  color: #333333;
+}
+
+.input__field {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  color: #333333;
+  background-color: #fff;
+  border: 0.05rem solid #ccc;
+}
+
+.input__field:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.01rem rgba(0, 123, 255, 0.25);
+}
+
+.input__field--error {
+  border-color: #dc3545;
+}
+
+.input__error-message {
+  margin-top: 0.1rem;
+  font-size: 0.6rem;
+  color: #dc3545;
+}

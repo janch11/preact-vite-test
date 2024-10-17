@@ -7,7 +7,7 @@ type InputProps = {
   name: string;
   type?: "text" | "password" | "email" | "number";
   value?: string;
-  onChange: (value: string) => void;
+  onChange: (_v: string) => void;
   error?: string;
 } & Omit<h.JSX.HTMLAttributes<HTMLInputElement>, "onChange">;
 
@@ -20,13 +20,12 @@ const Input: FunctionComponent<InputProps> = ({
   error,
   ...props
 }) => {
-
   const handleChange = useCallback(
     (e: h.JSX.TargetedEvent<HTMLInputElement>) => {
       const newValue = e.currentTarget.value;
-      onChange(newValue);
+      onChange?.(newValue);
     },
-    [onChange]
+    [onChange],
   );
 
   return (

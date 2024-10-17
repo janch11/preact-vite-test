@@ -21,10 +21,11 @@ const getETHBalance = async (address: string) => {
       throw new Error("Error fetching data");
     }
     const balanceData = balance?.data?.filter(
-      (asset) => asset.asset === "ETH"
+      (asset) => asset.asset === "ETH",
     )?.[0]?.balance;
     return balanceData;
   } catch (err) {
+    console.error("An error occurred:", err);
     throw err;
   }
 };

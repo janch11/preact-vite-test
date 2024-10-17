@@ -11,7 +11,7 @@ const Button: FunctionComponent<ButtonProps> = ({
   onClick,
   children,
   type,
-  customClassName
+  customClassName,
 }) => {
   return (
     <button class={customClassName} type={type} onClick={onClick}>

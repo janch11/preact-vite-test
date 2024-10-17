@@ -1,8 +1,8 @@
 module.exports = {
-    extends: ['preact'],
-    parser: '@typescript-eslint/parser',
-    plugins: ['@typescript-eslint'],
-    rules: {
-      // Add any custom rules here
-    },
-  };
+  extends: ["preact"],
+  parser: "@typescript-eslint/parser",
+  plugins: ["@typescript-eslint"],
+  rules: {
+    "@typescript-eslint/no-unused-vars": ["error", { argsIgnorePattern: "^_" }],
+  },
+};
