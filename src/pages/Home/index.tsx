@@ -1,17 +1,16 @@
-import preactLogo from "../../assets/tatum.jpeg";
-import Form from "./form";
+import tatumLogo from "../../assets/tatum.jpeg";
+import RateForm from "../../features/RateFrom/RateFrom";
 import "./style.css";
 
-export function Home() {
+const Home = () => {
   return (
-    <div class="home">
-      <a href="https://preactjs.com" target="_blank">
-        <img src={preactLogo} alt="Preact logo" height="160" width="160" />
-      </a>
-      <h1>Tatum Hello</h1>
+    <section class="home">
+      <img class="home__image" src={tatumLogo} alt="Tatum logo" />
+      <h1 class="home__title">Tatum Hello</h1>
 
-      <Form />
-    </div>
+      <RateForm />
+    </section>
   );
-}
+};
 
+export default Home;

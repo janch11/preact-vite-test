@@ -1,0 +1,26 @@
+.rate-form {
+  width: 100%;
+  height: 60%;
+}
+.rate-form__button {
+  margin-bottom: 1rem;
+}
+
+.rate-form__text {
+  max-width: 90%;
+  margin: auto;
+  font-size: 0.9rem;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.rate-form__error {
+  color: #880808;
+  max-width: 90%;
+  margin: auto;
+  font-size: 0.9rem;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
