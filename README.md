@@ -1,15 +1,39 @@
-# `create-preact`
 
-<h2 align="center">
-  <img height="256" width="256" src="./src/assets/preact.svg">
-</h2>
 
-<h3 align="center">Get started using Preact and Vite!</h3>
+## Installation
 
-## Getting Started
+To install the project dependencies, run:
 
-- `npm run dev` - Starts a dev server at http://localhost:5173/
+```
+npm install
+```
 
-- `npm run build` - Builds for production, emitting to `dist/`
+## Scripts
 
-- `npm run preview` - Starts a server at http://localhost:4173/ to test production build locally
+This project uses the following npm scripts:
+
+- `npm run dev`: Start the development server using Vite
+- `npm run build`: Build the project for production
+- `npm run preview`: Preview the built project
+
+## Development
+
+To start the development server, run:
+
+```
+npm run dev
+```
+
+## Building for Production
+
+To build the project for production, run:
+
+```
+npm run build
+```
+
+After building, you can preview the production build using:
+
+```
+npm run preview
+```
