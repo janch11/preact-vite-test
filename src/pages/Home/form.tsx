@@ -1,6 +1,6 @@
 // App.js
 import { Network, TatumSDK, Ethereum } from "@tatumio/tatum";
-import React, { useState } from "react";
+import  { useState } from "react";
 
 function Form() {
   const [inputValue, setInputValue] = useState(""); // State to hold the input value
